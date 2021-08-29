@@ -13,6 +13,12 @@ header {
   background-color: getColour(secondary);
 }
 
+footer {
+  @media (max-width: 500px) {
+    background-color: white;
+  }
+}
+
 main {
   margin: auto;
   display: flex;

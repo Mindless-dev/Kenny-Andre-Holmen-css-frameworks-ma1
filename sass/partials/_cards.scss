@@ -1,7 +1,7 @@
 .card {
   min-height: 263px;
   max-width: 357px;
-  background-color: white;
+  background-color: getColour(secondary);
   border-radius: 12px;
   margin: auto;
 
@@ -10,6 +10,7 @@
   }
   &.purple-border {
     border: solid getColour(accent) 3px;
+    background-color: white;
   }
   &.purple-white {
     border: solid white 3px;
