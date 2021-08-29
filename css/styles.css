@@ -44,12 +44,17 @@ body {
 }
 
 .card {
-  max-height: 355px;
   min-height: 263px;
   max-width: 357px;
   background-color: white;
   border-radius: 12px;
   margin: auto;
+}
+
+@media (max-width: 750px) {
+  .card {
+    min-height: 355px;
+  }
 }
 
 .card.purple-border {
