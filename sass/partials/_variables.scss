@@ -1,0 +1,10 @@
+$colours: (
+  primary: #e5e5e5,
+  secondary: #f4f3ee,
+  accent: #c32c72,
+  font: #8d8d8d,
+);
+
+@function getColour($colour) {
+  @return map-get($colours, $colour);
+}

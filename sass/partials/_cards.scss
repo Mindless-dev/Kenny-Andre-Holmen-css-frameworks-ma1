@@ -1,0 +1,15 @@
+.card {
+  max-height: 355px;
+  min-height: 263px;
+  max-width: 357px;
+  background-color: white;
+  border-radius: 12px;
+  margin: auto;
+  &.purple-border {
+    border: solid getColour(accent) 3px;
+  }
+  &.purple-white {
+    border: solid white 3px;
+    background-color: getColour(accent);
+  }
+}

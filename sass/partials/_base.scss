@@ -1,0 +1,26 @@
+body {
+  background-color: getColour(primary);
+}
+
+h1 {
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+}
+
+footer,
+header {
+  background-color: getColour(secondary);
+}
+
+main {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  @media (min-width: 600px) {
+    padding-bottom: 10em;
+  }
+}
